@@ -1,0 +1,103 @@
+ExtractMin returned 2147483647
+FindMin returned 0
+INSERTED 7
+INSERTED 5
+INSERTED 9
+INSERTED 11
+INSERTED 12
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 5 
+Level 1: 7 9 
+Level 2: 11 12 
+--------------------------------------------
+ExtractMin returned 5
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 7 
+Level 1: 11 9 
+Level 2: 12 
+--------------------------------------------
+ExtractMin returned 7
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 9 
+Level 1: 11 12 
+--------------------------------------------
+ExtractMin returned 9
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 11 
+Level 1: 12 
+--------------------------------------------
+ExtractMin returned 11
+ExtractMin returned 12
+
+Printing the binary heap
+--------------------------------------------
+--------------------------------------------
+ExtractMin returned 2147483647
+FindMin returned 12
+INSERTED 14
+INSERTED 12
+INSERTED 16
+INSERTED 13
+INSERTED 11
+INSERTED 19
+ExtractMin returned 11
+ExtractMin returned 12
+ExtractMin returned 13
+ExtractMin returned 14
+ExtractMin returned 16
+INSERTED 25
+INSERTED 100
+INSERTED 200
+INSERTED 300
+INSERTED 400
+INSERTED 500
+INSERTED 600
+INSERTED 700
+INSERTED 800
+ExtractMin returned 19
+ExtractMin returned 25
+ExtractMin returned 100
+ExtractMin returned 200
+ExtractMin returned 300
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 400 
+Level 1: 500 700 
+Level 2: 600 800 
+--------------------------------------------
+INSERTED 12
+INSERTED 16
+INSERTED 13
+INSERTED 11
+INSERTED 19
+INSERTED 25
+INSERTED 100
+INSERTED 200
+INSERTED 300
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 11 
+Level 1: 12 16 
+Level 2: 13 19 100 300 
+Level 3: 600 500 800 25 700 200 400 
+--------------------------------------------
+800 decreased to 5
+3000 decreased to 2
+
+Printing the binary heap
+--------------------------------------------
+Level 0: 2 
+Level 1: 11 16 
+Level 2: 13 12 100 300 
+Level 3: 600 500 19 25 700 200 400 
+--------------------------------------------
